@@ -7,7 +7,7 @@
  * Includes: CanJS default build
  * Download from: http://canjs.us/
  */
-define(function(){
+define(['can/view'],function(can){
 	/**
 	 * @property {Object} can.view.elements
 	 * @parent can.view
